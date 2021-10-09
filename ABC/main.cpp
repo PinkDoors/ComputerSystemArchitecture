@@ -4,81 +4,73 @@
 //------------------------------------------------------------------------------
 
 #include <iostream>
-#include <fstream>
-#include <cstdlib> // для функций rand() и srand()
-#include <ctime>   // для функции time()
+#include <cstdlib>
+#include <ctime>
 #include <cstring>
 
 #include "container.h"
 
 void errMessage1() {
     std::cout << "incorrect command line!\n"
-            "  Waited:\n"
-            "     command -f infile outfile01 outfile02\n"
-            "  Or:\n"
-            "     command -n number outfile01 outfile02\n";
+                 "  Waited:\n"
+                 "     command -f infile outfile01 outfile02\n"
+                 "  Or:\n"
+                 "     command -n number outfile01 outfile02\n";
 }
 
 void errMessage2() {
     std::cout << "incorrect qualifier value!\n"
-            "  Waited:\n"
-            "     command -f infile outfile01 outfile02\n"
-            "  Or:\n"
-            "     command -n number outfile01 outfile02\n";
+                 "  Waited:\n"
+                 "     command -f infile outfile01 outfile02\n"
+                 "  Or:\n"
+                 "     command -n number outfile01 outfile02\n";
 }
 
-/**
- *
- * @param argc
- * @param argv
- * @return
- */
-//------------------------------------------------------------------------------
-int main(int argc, char* argv[]) {
-    if(argc != 5) {
+int main(int argc, char *argv[]) {
+    if (argc != 5) {
         errMessage1();
         return 1;
     }
 
-    std::cout << "Start"<< std::endl;
+    std::cout << "Start of the program" << std::endl;
     container c;
     Init(c);
 
-    ////cout << "argv[1] = " << argv[1] << "\n";
     // ВВод содержимого из потока (файл).
-    if(!strcmp(argv[1], "-f")) {
+    if (!strcmp(argv[1], "-f")) {
         std::ifstream ifst(argv[2]);
         In(c, ifst);
     }
-    else if(!strcmp(argv[1], "-n")) {
+        // Ввод случайных элементов.
+    else if (!strcmp(argv[1], "-n")) {
         auto size = atoi(argv[2]);
-        if((size < 1) || (size > 10000)) {
+        if ((size < 1) || (size > 10000)) {
             std::cout << "incorrect numer of figures = "
-                 << size
-                 << ". Set 0 < number <= 10000\n";
+                      << size
+                      << ". Set 0 < number <= 10000\n";
             return 3;
         }
-        // системные часы в качестве инициализатора
-        srand(static_cast<unsigned int>(time(0)));
         // Заполнение контейнера генератором случайных чисел
         InRnd(c, size);
-    }
-    else {
+    } else {
         errMessage2();
         return 2;
     }
-    /**
-    // Вывод содержимого контейнера в файл
+    // Вывод содержимого контейнера в файл.
     std::ofstream ofst1(argv[3]);
     ofst1 << "Filled container:\n";
     Out(c, ofst1);
+    std::cout << "The container is saved to a file " << "\"" << argv[3] << "\"\n";
 
-    // The 2nd part of task
+    // Вывод отсортированного содержимого контейнера в файл.
+    HeapSort(c);
     std::ofstream ofst2(argv[4]);
-    ofst2 << "EncryptString sum = " << PerimeterSum(c) << "\n";
+    ofst2 << "Sorted container:\n";
+    Out(c, ofst2);
+    std::cout << "The sorted container is saved to a file " << "\"" << argv[4] << "\"\n";
 
     Clear(c);
-     */
-    std::cout << "Stop"<< std::endl;
+    std::cout << "The program ended successfully" << std::endl;
+    std::cout << "Time: " << clock() / 1000.0 << std::endl;
     return 0;
 }

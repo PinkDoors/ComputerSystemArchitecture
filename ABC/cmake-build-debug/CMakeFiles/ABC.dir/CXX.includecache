@@ -12,10 +12,6 @@ string.h
 fstream
 -
 
-C:/Users/danii/CLionProjects/ABC/Encryption.cpp
-Encryption.h
-C:/Users/danii/CLionProjects/ABC/Encryption.h
-
 C:/Users/danii/CLionProjects/ABC/Encryption.h
 CyclicShiftEncryption.h
 C:/Users/danii/CLionProjects/ABC/CyclicShiftEncryption.h
@@ -24,29 +20,17 @@ C:/Users/danii/CLionProjects/ABC/NumbersEncryption.h
 SymbolsEncryption.h
 C:/Users/danii/CLionProjects/ABC/SymbolsEncryption.h
 
-C:/Users/danii/CLionProjects/ABC/NumbersEncryption.cpp
-NumbersEncryption.h
-C:/Users/danii/CLionProjects/ABC/NumbersEncryption.h
-
 C:/Users/danii/CLionProjects/ABC/NumbersEncryption.h
 string.h
 -
 fstream
 -
 
-C:/Users/danii/CLionProjects/ABC/SymbolsEncryption.cpp
-SymbolsEncryption.h
-C:/Users/danii/CLionProjects/ABC/SymbolsEncryption.h
-
 C:/Users/danii/CLionProjects/ABC/SymbolsEncryption.h
 string.h
 -
 fstream
 -
-
-C:/Users/danii/CLionProjects/ABC/container.cpp
-container.h
-C:/Users/danii/CLionProjects/ABC/container.h
 
 C:/Users/danii/CLionProjects/ABC/container.h
 Encryption.h
@@ -54,8 +38,6 @@ C:/Users/danii/CLionProjects/ABC/Encryption.h
 
 C:/Users/danii/CLionProjects/ABC/main.cpp
 iostream
--
-fstream
 -
 cstdlib
 -

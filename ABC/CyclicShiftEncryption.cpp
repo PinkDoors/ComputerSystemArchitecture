@@ -1,31 +1,26 @@
 #include "CyclicShiftEncryption.h"
 
-//------------------------------------------------------------------------------
-// Ввод параметров прямоугольника из файла
-void In(CyclicShiftEncryption &c,char sourceString[256], std::ifstream &ifst) {
+// Ввод параметров шифровния из файла
+void In(CyclicShiftEncryption &c, char sourceString[256], int size, std::ifstream &ifst) {
     ifst >> c.shift;
-    for (int i = 0; i < 256; ++i) {
+    for (int i = 0; i < size; ++i) {
         c.encryptedString[i] = sourceString[i] + c.shift;
     }
 }
 
-// Случайный ввод параметров прямоугольника
-void InRnd(CyclicShiftEncryption &c) {
-    //r.x = Random();
-    //r.y = Random();
+// Случайный ввод параметров шифрованя
+void InRnd(CyclicShiftEncryption &c, char sourceString[256], int size) {
+    c.shift = rand() % 1000;
+    for (int i = 0; i < size; ++i) {
+        c.encryptedString[i] = sourceString[i] + c.shift;
+    }
 }
 
-//------------------------------------------------------------------------------
-// Вывод параметров прямоугольника в форматируемый поток
-void Out(CyclicShiftEncryption &c, std::ofstream &ofst) {
-    /**
-    ofst << "It is Rectangle: x = " << r.x << ", y = " << r.y
-         << ". EncryptString = " << Perimeter(r) << "\n";
-         */
-}
-
-//------------------------------------------------------------------------------
-// Вычисление периметра прямоугольника
-double EncryptString(char sourceString[256]) {
-    return 0;
+// Вывод зашифрованной строки
+void Out(CyclicShiftEncryption &c, int size, std::ofstream &ofst) {
+    ofst << "Result of the encryption: ";
+    for (int i = 0; i < size; ++i) {
+        ofst << c.encryptedString[i];
+    }
+    ofst << ".\n";
 }
