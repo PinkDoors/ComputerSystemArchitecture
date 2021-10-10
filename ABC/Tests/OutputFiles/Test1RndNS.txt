@@ -1,34 +1,0 @@
-Filled container:
-Container contains 5 elements.
-----------------------------------------------------
-0: Input string = rAQBc8Wsa1xVPfvJcrgRYwTiizs2trQF69AzBlax3.
-
-The quotient of dividing the sum of the codes of an unencrypted string by the number of characters in this string = 90.6585.
-
-Result of the encryption: yLIBbsaaE3p4iWxubyygdrIyyCaEpyI1moLCBIEpD.
-----------------------------------------------------
-1: Input string = RCr4zdGc81tBDKsMlaZTXC1O8YFOGKjxRrJBdT3hVOfoaMeAjSWfchoZYFYZ5B6kzMCk8R6BEuZMrF6cI6NX8DYdD3ojxSnqPTGfRyilOYGxlSXPtLJboH8S4kwIgTxSl1C00GOzOLMrbAyfKUUTsGCoRblsaqv6UpdvNIsNrmwUlN5u9t3tgj2tusZBauFkrFCJCmZFOv1QDIIXJNZI95hFQr77BIElyct4Aj6PKnZpzRiK.
-
-The quotient of dividing the sum of the codes of an unencrypted string by the number of characters in this string = 86.8708.
-
-Result of the encryption: grfSB3oTqZRzHRUyrDeA1rZyqlDyoR62gf4z3An8yyEPDyCA656ET8PelDleOzK9Byr9qgKzq2eyfDKTLKq1qHl3HnP625ltXAoEgmKrylo2r51XRH4YPGq5S9ZLWA25rZrppoyByHyfYAmERyyAUorPgYrUDtIKyG3IqLUqfkZyrqO28RnRW6gR2UezD2D9fDr4rkeDyIZ3HLL14qeL8O8D3fllzLqrmTRSA6KXRleGBgKR.
-----------------------------------------------------
-2: Input string = S7NLt2nQfj3SL3XByImciQTqVaAUnJvUmHVQGsTmvHeuSEBMSPh2Q6dQAjy4KjsfSXF4YP8arF3SLLny30KKziHtRbOE2u8qvJP3B6Uiu1gJ03OhmWvn7MIr9oDUTOX7NYEkZgzUny1swObdYSEvWRBLzZ02h67YrlvBndn4cXPaoaKk5lQn33hfNWPgr881nP7VxEE4FdgcL9fOPyc98bI89qTPFtysL1Q4GTOP.
-
-The quotient of dividing the sum of the codes of an unencrypted string by the number of characters in this string = 85.2586.
-
-Result of the encryption: fQYpIk3HJbkfpkTEsH1isHUyjjNT394T1CjHlLU14C7BfuEIfPRkHqHHNbsqWbLJfTTqOP5jWTkfpp3skDWWVsCIW3aukB5y49PkEqTsB7T9DkaR1l43QIHWP3fTUaTQYOuYSTVT3s7LGa3HOfu4lWEpVSDkRqQOWH4E3H3qiTPj3jWYPHH3kkRJYlPTW5573PQj3uuqTHTipPJaPsiP53H5PyUPTIsLp7HqlUaP.
-----------------------------------------------------
-3: Input string = ykPds7HX27KbNCCytJR8Cu6XFptEIP68v8ZdV60GXAPZHAD2vQkWrpqiwdo3Hrdt6z3lSTpgTpRpRVcwo6HM8uA8D9eE4ZADtmvWvN20LBHSkD6qr7J1hAkTkUFvMA0OSa91e9gqVNBeg10gAI4OMrxF2ltRPWacKwhzQyw8byx.
-
-The quotient of dividing the sum of the codes of an unencrypted string by the number of characters in this string = 85.3099.
-
-Result of the encryption: wCDlrYIlOYMvOuuwj1oyuRFlCYjp7DFyZyplPFFzlqDpIqbOZkCYfYk2DlRQIfljF6Qm8fYBfYoYoPxDRFIVyRqyb0Upfpqbj3ZYZOOFRuI8CbFkfY1wHqCfCnCZVqFg8d0wU0BkPOuUBwFBq7fgVfdCOmjoDYdxMDH6kwDyvwd.
-----------------------------------------------------
-4: Input string = cpX33e1IOwWR2uaAtZVB5yi9ijSAjBQjgnZSCe8nPQHnppZqt456uNhaAAZ7eJqXZMwECM9T0ci76RojHkpC99IR3WsIMd3jKuWwPswERoC0nE0pAli9Mk6pyZdABIGpASsMZ6uUeHJj8Ut6sSUOT0ouihnKJGjkvaPWolzchUSmJqhTmfAUKYckdKB9Ppfr6SkbeR8PK.
-
-The quotient of dividing the sum of the codes of an unencrypted string by the number of characters in this string = 87.1493.
-
-Result of the encryption: 8E-:$L,'J6I/+
-N>>?(?&?<C/(:C%&CEE/FI	
-J#=6/:F-/"L")8>'D?@E',H"9? J,L%HL'DCEA>"@EN/9E(H"/J*:?*IH(*$)DJ>=C ?@K6%,DAO8=*(BF=)B;* .8@9 %E;G(@7:'% .
