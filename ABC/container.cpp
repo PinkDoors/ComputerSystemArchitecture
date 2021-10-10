@@ -78,11 +78,11 @@ void HeapSort(container &c) {
     for (int i = c.len / 2 - 1; i >= 0; i--)
         Heapify(c.cont, c.len, i);
     // Один за другим извлекаем элементы из кучи.
-    for (int i = c.len - 1; i >= 0; i--) {
+    for (int j = c.len - 1; j >= 0; j--) {
         // Перемещаем текущий корень в конец.
-        std::swap(c.cont[0], c.cont[i]);
+        std::swap(c.cont[0], c.cont[j]);
         // вызываем процедуру Heapify на уменьшенной куче.
-        Heapify(c.cont, i, 0);
+        Heapify(c.cont, j, 0);
     }
 }
 
