@@ -20,3 +20,5 @@ First Computer System Architerure homework
 Пример лежит в Tests/Test1.txt
 
 -n <number> <"OutputNS path"> <"OutputS path">, где n - тип ввода(случайный ввод), number - число элементов в контейнере, "OutputNS path" - путь к файлу, в который будет выводиться контейнер в неотсортированном виде, "OutputS" -  путь к файлу, в который будет выводиться контейнер в отсортированном виде.
+  
+CSAHomework.docx содержит отчет о выполненном задании.
